@@ -2,6 +2,7 @@ package chapter10;
 
 public class ThreadExceptionTest implements Runnable
 {
+
     public void run()
     {
         firstMethod();

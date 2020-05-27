@@ -2,8 +2,13 @@ package chapter9;
 
 public class Apple<T>
 {
+
     private T info;
-    public Apple() {}
+
+    public Apple()
+    {
+    }
+
     public Apple(T info)
     {
         this.info = info;

@@ -2,6 +2,7 @@ package chapter6;
 
 public class NullAccessStatic
 {
+
     public static void test()
     {
         System.out.println("static类方法");

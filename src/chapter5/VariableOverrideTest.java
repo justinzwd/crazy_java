@@ -2,6 +2,7 @@ package chapter5;
 
 public class VariableOverrideTest
 {
+
     private String name = "李刚";
     private static double price = 78.0;
 

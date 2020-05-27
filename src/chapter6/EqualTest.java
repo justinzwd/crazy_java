@@ -14,8 +14,8 @@ public class EqualTest
 
         String str1 = new String("Hello");
         String str2 = new String("Hello");
-        System.out.println("str1和str2是否相等？"+(str1 == str2));
-        System.out.println("str1和str2是否相等？"+(str1.equals(str2)));
+        System.out.println("str1和str2是否相等？" + (str1 == str2));
+        System.out.println("str1和str2是否相等？" + (str1.equals(str2)));
 
         //System.out.println("hello" == new EqualTest());
 

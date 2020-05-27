@@ -2,6 +2,7 @@ package chapter5;
 
 class Animal1
 {
+
     private void beat()
     {
         System.out.println("心脏跳动。。。");
@@ -16,16 +17,20 @@ class Animal1
 
 class Bird1
 {
+
     private Animal1 a;
+
     public Bird1(Animal1 a)
     {
 
         this.a = a;
     }
+
     public void breath()
     {
         a.breath();
     }
+
     public void fly()
     {
         System.out.println("在天空中飞翔");
@@ -34,20 +39,25 @@ class Bird1
 
 class Wolf1
 {
+
     private Animal1 a;
+
     public Wolf1(Animal1 a)
     {
         this.a = a;
     }
+
     public void run()
     {
         System.out.println("在草原上奔跑");
     }
+
     public void breath()
     {
         a.breath();
     }
 }
+
 public class CompositeTest
 {
 

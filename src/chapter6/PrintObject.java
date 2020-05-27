@@ -2,7 +2,9 @@ package chapter6;
 
 public class PrintObject
 {
+
     private String name;
+
     public PrintObject(String name)
     {
         this.name = name;

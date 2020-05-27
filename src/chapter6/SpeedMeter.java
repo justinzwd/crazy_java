@@ -2,7 +2,9 @@ package chapter6;
 
 public abstract class SpeedMeter
 {
+
     private double turnRate;
+
     public SpeedMeter()
     {
 

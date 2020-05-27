@@ -2,6 +2,7 @@ package chapter6;
 
 public class FinalVariableTest
 {
+
     final int a = 6;
     final String str;
     final int c;

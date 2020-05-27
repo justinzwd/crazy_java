@@ -18,6 +18,6 @@ public class DiamondTest
 
         schoolInfo.put("孙悟空", school);
 
-        schoolInfo.forEach((key,value) -> System.out.println(key + "--->" + value));
+        schoolInfo.forEach((key, value) -> System.out.println(key + "--->" + value));
     }
 }

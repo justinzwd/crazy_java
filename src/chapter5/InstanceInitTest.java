@@ -2,6 +2,7 @@ package chapter5;
 
 public class InstanceInitTest
 {
+
     {
         a = 9;
     }

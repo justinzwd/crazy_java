@@ -6,7 +6,8 @@ import java.util.List;
 
 public class MyUtil
 {
-    public static <T> T copy(Collection<? super T> dest,Collection<T> src)
+
+    public static <T> T copy(Collection<? super T> dest, Collection<T> src)
     {
         T last = null;
         for (T ele : src)
@@ -22,7 +23,7 @@ public class MyUtil
         List<Number> ln = new ArrayList<>();
         List<Integer> li = new ArrayList<>();
         li.add(5);
-        Integer last = copy(ln,li);
+        Integer last = copy(ln, li);
         System.out.println(ln);
     }
 

@@ -13,9 +13,9 @@ public class ForEachTest
         books.add("JAVA");
         books.add("疯狂");
 
-        for (Object obj: books)
+        for (Object obj : books)
         {
-            String book = (String)obj;
+            String book = (String) obj;
             System.out.println(book);
             if (book.equals("JAVA"))
             {

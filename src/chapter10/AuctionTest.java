@@ -2,7 +2,9 @@ package chapter10;
 
 public class AuctionTest
 {
+
     private double initPrice = 30.0;
+
     public void bid(String bidPrice) throws AuctionException
     {
         double d = 0.0;

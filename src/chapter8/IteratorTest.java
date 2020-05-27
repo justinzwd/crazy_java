@@ -15,11 +15,11 @@ public class IteratorTest
         books.add("疯狂");
 
         Iterator it = books.iterator();
-        while(it.hasNext())
+        while (it.hasNext())
         {
             String book = (String) it.next();
             System.out.println(book);
-            if(book == "JAVA")
+            if (book == "JAVA")
             {
                 it.remove();
             }

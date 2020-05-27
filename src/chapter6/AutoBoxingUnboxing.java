@@ -10,7 +10,7 @@ public class AutoBoxingUnboxing
         int it = inObj;
         if (boolObj instanceof Boolean)
         {
-            boolean b = (Boolean)boolObj;
+            boolean b = (Boolean) boolObj;
             System.out.println(b);
             System.out.println(it);
         }

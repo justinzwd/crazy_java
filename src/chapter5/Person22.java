@@ -2,6 +2,7 @@ package chapter5;
 
 public class Person22
 {
+
     {
         int a = 4;
         if (a > 2)

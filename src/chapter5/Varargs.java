@@ -2,6 +2,7 @@ package chapter5;
 
 public class Varargs
 {
+
     public static void test(int a, String... books)
     {
         for (String tmp : books)
@@ -14,6 +15,6 @@ public class Varargs
 
     public static void main(String[] args)
     {
-        Varargs.test(5,"hahha","nihao");
+        Varargs.test(5, "hahha", "nihao");
     }
 }

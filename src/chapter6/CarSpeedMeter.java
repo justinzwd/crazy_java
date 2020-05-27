@@ -2,6 +2,7 @@ package chapter6;
 
 public class CarSpeedMeter extends SpeedMeter
 {
+
     public double getRadius()
     {
         return 0.28;

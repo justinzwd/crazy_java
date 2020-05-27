@@ -14,7 +14,7 @@ public class MapTest
         map.put("疯狂Ajax讲义", 79);
         map.put("轻量级Java EE企业应用实战", 109);
 
-        System.out.println(map.put("疯狂iOS讲义",99));
+        System.out.println(map.put("疯狂iOS讲义", 99));
         System.out.println(map);
         System.out.println(map.containsKey("疯狂iOS讲义"));
         System.out.println(map.containsValue(99));

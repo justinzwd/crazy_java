@@ -2,14 +2,15 @@ package chapter6;
 
 public class Triangle extends Shape
 {
+
     private double a;
     private double b;
     private double c;
 
-    public Triangle(String color,double a, double b, double c)
+    public Triangle(String color, double a, double b, double c)
     {
         super(color);
-        this.setSides(a,b,c);
+        this.setSides(a, b, c);
     }
 
     public void setSides(double a, double b, double c)

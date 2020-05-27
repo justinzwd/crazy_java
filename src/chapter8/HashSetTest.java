@@ -4,6 +4,7 @@ import java.util.HashSet;
 
 class A
 {
+
     public boolean equals(Object obj)
     {
         return true;
@@ -12,6 +13,7 @@ class A
 
 class B
 {
+
     public int hashCode()
     {
         return 1;
@@ -20,6 +22,7 @@ class B
 
 class C
 {
+
     public int hashCode()
     {
         return 2;

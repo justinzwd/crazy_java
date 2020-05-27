@@ -2,6 +2,7 @@ package chapter5;
 
 public class Ostrich extends Bird
 {
+
     public void say()
     {
         System.out.println("I can only run on the ground");

@@ -12,7 +12,7 @@ public class CollectionEach
         books.add("轻量级");
         books.add("JAVA");
         books.add("疯狂");
-        books.forEach(obj -> System.out.println("迭代集合元素："+obj));
+        books.forEach(obj -> System.out.println("迭代集合元素：" + obj));
     }
 
 }

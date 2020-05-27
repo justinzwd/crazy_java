@@ -16,7 +16,7 @@ public class PredicateTest
         books.add("dddfd");
         books.add("ofhwuifhqugfhrueghrughugequrghqug");
 
-        books.removeIf(ele ->((String)ele).length() < 10);
+        books.removeIf(ele -> ((String) ele).length() < 10);
         System.out.println(books);
     }
 }

@@ -47,7 +47,7 @@ public class ToStringTest
 
     public static void main(String[] args)
     {
-        Apple a = new Apple("yellow",56.6);
+        Apple a = new Apple("yellow", 56.6);
         System.out.println(a);
     }
 }

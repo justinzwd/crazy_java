@@ -26,7 +26,11 @@ public class PrintStackTraceTest
 
 class SelfException extends RuntimeException
 {
-    SelfException(){}
+
+    SelfException()
+    {
+    }
+
     SelfException(String msg)
     {
         super(msg);

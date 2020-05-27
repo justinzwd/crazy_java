@@ -2,6 +2,7 @@ package chapter5;
 
 class Base1
 {
+
     public Base1()
     {
         test();
@@ -15,7 +16,9 @@ class Base1
 
 public class Sub1 extends Base1
 {
+
     private String name;
+
     public void test()
     {
         System.out.println("子类重写父类的test方法 and name的长度为" + name.length());

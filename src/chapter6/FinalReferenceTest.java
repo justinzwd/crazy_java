@@ -4,9 +4,14 @@ import java.util.Arrays;
 
 class Personn
 {
+
     private int age;
-    public Personn(){}
-    public Personn (int age)
+
+    public Personn()
+    {
+    }
+
+    public Personn(int age)
     {
         this.age = age;
     }
@@ -27,7 +32,7 @@ public class FinalReferenceTest
 
     public static void main(String[] args)
     {
-        final int[] iArr = {5,6,12,9};
+        final int[] iArr = {5, 6, 12, 9};
         System.out.println(Arrays.toString(iArr));
         Arrays.sort(iArr);
         System.out.println(Arrays.toString(iArr));

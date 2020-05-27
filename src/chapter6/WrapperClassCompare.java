@@ -17,8 +17,8 @@ public class WrapperClassCompare
 //        Integer bigb = 128;
 //        System.out.println("两个128自动装箱后是否相等："+(biga == bigb));
 
-        System.out.println(Boolean.compare(true,false));
-        System.out.println(Boolean.compare(true,true));
-        System.out.println(Boolean.compare(false,true));
+        System.out.println(Boolean.compare(true, false));
+        System.out.println(Boolean.compare(true, true));
+        System.out.println(Boolean.compare(false, true));
     }
 }

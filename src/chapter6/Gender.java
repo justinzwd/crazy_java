@@ -2,6 +2,6 @@ package chapter6;
 
 public enum Gender
 {
-    MALE,FEMALE;
+    MALE, FEMALE;
     public String name;
 }

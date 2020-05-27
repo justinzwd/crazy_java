@@ -2,13 +2,17 @@ package chapter6;
 
 class Person
 {
+
     public boolean equals(Object obj)
     {
         return true;
     }
 }
 
-class Dog{}
+class Dog
+{
+
+}
 
 public class OverrideEqualsError
 {

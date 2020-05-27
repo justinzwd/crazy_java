@@ -13,9 +13,9 @@ public class ListTest3
         books.add(new String("疯狂JavaEE"));
         books.add(new String("轻量级哈哈哈"));
         books.add(new String("轻量级好吧"));
-        books.sort((o1,o2) -> (((String)o1).length() - ((String)o2).length()));
+        books.sort((o1, o2) -> (((String) o1).length() - ((String) o2).length()));
         System.out.println(books);
-        books.replaceAll(ele -> ((String)ele).length());
+        books.replaceAll(ele -> ((String) ele).length());
         System.out.println(books);
     }
 }

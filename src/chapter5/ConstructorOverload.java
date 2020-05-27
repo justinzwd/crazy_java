@@ -2,6 +2,7 @@ package chapter5;
 
 public class ConstructorOverload
 {
+
     public int age;
     public String name;
 
@@ -10,7 +11,7 @@ public class ConstructorOverload
 
     }
 
-    public ConstructorOverload(String name,int age)
+    public ConstructorOverload(String name, int age)
     {
         this.name = name;
         this.age = age;
@@ -20,7 +21,7 @@ public class ConstructorOverload
     {
         ConstructorOverload c1 = new ConstructorOverload();
         System.out.println("c1.age=" + c1.age);
-        ConstructorOverload c2 = new ConstructorOverload("nihao",30);
+        ConstructorOverload c2 = new ConstructorOverload("nihao", 30);
         System.out.println("c1.age=" + c2.age);
     }
 

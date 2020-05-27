@@ -2,6 +2,7 @@ package chapter5;
 
 public class StaticInitTest
 {
+
     static
     {
         a = 6;

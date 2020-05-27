@@ -11,6 +11,7 @@ public class DeprecatedTest
 
 class Banana
 {
+
     @Deprecated
     public void info()
     {

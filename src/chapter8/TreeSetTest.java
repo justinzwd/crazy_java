@@ -18,6 +18,6 @@ public class TreeSetTest
         System.out.println(nums.last());
         System.out.println(nums.headSet(4));
         System.out.println(nums.tailSet(5));
-        System.out.println(nums.subSet(-3,4));
+        System.out.println(nums.subSet(-3, 4));
     }
 }
