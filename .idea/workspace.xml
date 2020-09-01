@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3aebb19-63d8-4156-866c-4107fd26ac3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter16/DaemonThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter16/JoinThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter16/Sleep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter16/YieldTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,24 +25,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter16/JoinThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-              <folding>
-                <element signature="e#100#101#0" expanded="true" />
-                <element signature="e#120#121#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/chapter16/DaemonThread.java">
+        <entry file="file://$PROJECT_DIR$/src/chapter16/YieldTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+            <state relative-caret-position="68">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#98#99#0" expanded="true" />
+                <element signature="e#121#122#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,8 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/chapter8/PredicateTest2.java" />
-        <option value="$PROJECT_DIR$/src/chapter8/IntStreamTest.java" />
         <option value="$PROJECT_DIR$/src/chapter8/HashSetTest.java" />
         <option value="$PROJECT_DIR$/src/chapter8/LinkedHashSetTest.java" />
         <option value="$PROJECT_DIR$/src/chapter8/TreeSetTest.java" />
@@ -114,6 +103,8 @@
         <option value="$PROJECT_DIR$/src/chapter16/StartDead.java" />
         <option value="$PROJECT_DIR$/src/chapter16/JoinThread.java" />
         <option value="$PROJECT_DIR$/src/chapter16/DaemonThread.java" />
+        <option value="$PROJECT_DIR$/src/chapter16/Sleep.java" />
+        <option value="$PROJECT_DIR$/src/chapter16/YieldTest.java" />
       </list>
     </option>
   </component>
@@ -188,22 +179,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DaemonThread">
+  <component name="RunManager" selected="Application.YieldTest">
     <configuration name="DaemonThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter16.DaemonThread" />
-      <module name="crazy_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter16.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InvokeRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter16.InvokeRun" />
       <module name="crazy_java" />
       <extension name="coverage">
         <pattern>
@@ -228,6 +206,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sleep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter16.Sleep" />
+      <module name="crazy_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter16.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StartDead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter16.StartDead" />
       <module name="crazy_java" />
@@ -241,8 +232,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThirdThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter16.ThirdThread" />
+    <configuration name="YieldTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter16.YieldTest" />
       <module name="crazy_java" />
       <extension name="coverage">
         <pattern>
@@ -255,19 +246,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ThirdThread" />
-      <item itemvalue="Application.InvokeRun" />
       <item itemvalue="Application.StartDead" />
       <item itemvalue="Application.JoinThread" />
       <item itemvalue="Application.DaemonThread" />
+      <item itemvalue="Application.Sleep" />
+      <item itemvalue="Application.YieldTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.YieldTest" />
+        <item itemvalue="Application.Sleep" />
         <item itemvalue="Application.DaemonThread" />
         <item itemvalue="Application.JoinThread" />
         <item itemvalue="Application.StartDead" />
-        <item itemvalue="Application.InvokeRun" />
-        <item itemvalue="Application.ThirdThread" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +282,7 @@
       <workItem from="1590578904282" duration="873000" />
       <workItem from="1590600059969" duration="9076000" />
       <workItem from="1591126103026" duration="36000" />
-      <workItem from="1598971010204" duration="5547000" />
+      <workItem from="1598971010204" duration="6628000" />
     </task>
     <task id="LOCAL-00001" summary="Chapter 10 Exception initial commitment">
       <created>1590268866604</created>
@@ -391,11 +382,18 @@
       <option name="project" value="LOCAL" />
       <updated>1598977990535</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Join Thread and Daemon Thread">
+      <created>1598979040029</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1598979040029</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82274000" />
+    <option name="totallyTimeSpent" value="83355000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -410,7 +408,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22050938" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22050938" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -458,34 +456,10 @@
     <MESSAGE value="File input and output serializable" />
     <MESSAGE value="Thread" />
     <MESSAGE value="Dead Thread" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dead Thread" />
+    <MESSAGE value="Join Thread and Daemon Thread" />
+    <option name="LAST_COMMIT_MESSAGE" value="Join Thread and Daemon Thread" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/chapter8/TreeSetTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-          <folding>
-            <element signature="e#90#91#0" expanded="true" />
-            <element signature="e#119#120#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter8/ListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter8/ListTest3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -905,6 +879,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter16/DaemonThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter16/JoinThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -916,10 +897,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter16/DaemonThread.java">
+    <entry file="file://$PROJECT_DIR$/src/chapter16/Sleep.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        <state relative-caret-position="252">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter16/YieldTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#98#99#0" expanded="true" />
+            <element signature="e#121#122#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
