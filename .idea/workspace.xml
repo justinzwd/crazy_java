@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3aebb19-63d8-4156-866c-4107fd26ac3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter15/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter15/PrintStreamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter15/ReadObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter15/WriteObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter16/FirstThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter16/SecondThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter16/ThirdThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crazy_java/META-INF/crazy_java.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,56 +27,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter15/PrintStreamTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter15/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-              <folding>
-                <element signature="e#295#296#0" expanded="true" />
-                <element signature="e#322#323#0" expanded="true" />
-                <element signature="e#366#367#0" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
-                <element signature="e#455#456#0" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
-                <element signature="e#524#525#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter15/WriteObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/chapter15/ReadObject.java">
+        <entry file="file://$PROJECT_DIR$/src/chapter16/ThirdThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+            <state relative-caret-position="882">
+              <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#333#342#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,9 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/chapter6/GenderTest.java" />
-        <option value="$PROJECT_DIR$/src/chapter8/CollectionTest.java" />
-        <option value="$PROJECT_DIR$/src/chapter8/CollectionEach.java" />
         <option value="$PROJECT_DIR$/src/chapter8/IteratorTest.java" />
         <option value="$PROJECT_DIR$/src/chapter8/IteratorEach.java" />
         <option value="$PROJECT_DIR$/src/chapter8/ForEachTest.java" />
@@ -149,11 +104,14 @@
         <option value="$PROJECT_DIR$/src/chapter15/WriteObject.java" />
         <option value="$PROJECT_DIR$/src/chapter15/Person.java" />
         <option value="$PROJECT_DIR$/src/chapter15/ReadObject.java" />
+        <option value="$PROJECT_DIR$/src/chapter16/FirstThread.java" />
+        <option value="$PROJECT_DIR$/src/chapter16/SecondThread.java" />
+        <option value="$PROJECT_DIR$/src/chapter16/ThirdThread.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="342" />
+    <option name="x" value="340" />
     <option name="y" value="425" />
     <option name="width" value="1365" />
     <option name="height" value="1040" />
@@ -166,6 +124,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,14 +142,12 @@
               <item name="crazy_java" type="b2602c69:ProjectViewProjectNode" />
               <item name="crazy_java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter15" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter16" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -197,6 +155,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -217,39 +181,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReadObject">
-    <configuration name="FileOutputStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter15.FileOutputStreamTest" />
+  <component name="RunManager" selected="Application.ThirdThread">
+    <configuration name="FirstThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter16.FirstThread" />
       <module name="crazy_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileWriterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter15.FileWriterTest" />
-      <module name="crazy_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrintStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter15.PrintStreamTest" />
-      <module name="crazy_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter15.*" />
+          <option name="PATTERN" value="chapter16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -263,6 +201,32 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="chapter15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecondThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter16.SecondThread" />
+      <module name="crazy_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter16.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThirdThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter16.ThirdThread" />
+      <module name="crazy_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -284,19 +248,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FileOutputStreamTest" />
-      <item itemvalue="Application.FileWriterTest" />
-      <item itemvalue="Application.PrintStreamTest" />
       <item itemvalue="Application.WriteObject" />
       <item itemvalue="Application.ReadObject" />
+      <item itemvalue="Application.FirstThread" />
+      <item itemvalue="Application.SecondThread" />
+      <item itemvalue="Application.ThirdThread" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThirdThread" />
+        <item itemvalue="Application.SecondThread" />
+        <item itemvalue="Application.FirstThread" />
         <item itemvalue="Application.ReadObject" />
         <item itemvalue="Application.WriteObject" />
-        <item itemvalue="Application.PrintStreamTest" />
-        <item itemvalue="Application.FileWriterTest" />
-        <item itemvalue="Application.FileOutputStreamTest" />
       </list>
     </recent_temporary>
   </component>
@@ -318,7 +282,9 @@
       <workItem from="1590525230581" duration="22000" />
       <workItem from="1590577623393" duration="829000" />
       <workItem from="1590578904282" duration="873000" />
-      <workItem from="1590600059969" duration="8605000" />
+      <workItem from="1590600059969" duration="9076000" />
+      <workItem from="1591126103026" duration="36000" />
+      <workItem from="1598971010204" duration="3456000" />
     </task>
     <task id="LOCAL-00001" summary="Chapter 10 Exception initial commitment">
       <created>1590268866604</created>
@@ -397,11 +363,18 @@
       <option name="project" value="LOCAL" />
       <updated>1590620744309</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="File input and output serializable">
+      <created>1590622423485</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1590622423485</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76220000" />
+    <option name="totallyTimeSpent" value="80183000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -414,9 +387,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21514745" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22050938" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -425,7 +397,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.37393767" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.9575071" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -461,39 +433,10 @@
     <MESSAGE value="Annotation" />
     <MESSAGE value="File" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="File input and output serializable" />
+    <option name="LAST_COMMIT_MESSAGE" value="File input and output serializable" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/chapter8/IteratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter8/PredicateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="16" column="55" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="16" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter8/PredicateTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="32" column="74" selection-start-line="32" selection-start-column="74" selection-end-line="32" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter8/IntStreamTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
@@ -884,9 +827,15 @@
     <entry file="file://$PROJECT_DIR$/poem.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/print.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter15/PrintStreamTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
+        <state relative-caret-position="357">
           <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -894,15 +843,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/print.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/object.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter15/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="294">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="e#295#296#0" expanded="true" />
@@ -919,7 +862,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter15/WriteObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="378">
           <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -929,10 +872,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter15/ReadObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        <state relative-caret-position="483">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter16/FirstThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter16/SecondThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter16/ThirdThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#333#342#0" expanded="true" />
           </folding>
         </state>
       </provider>
