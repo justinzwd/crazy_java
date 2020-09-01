@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3aebb19-63d8-4156-866c-4107fd26ac3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter16/FirstThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter16/SecondThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter16/ThirdThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter16/InvokeRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter16/StartDead.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/crazy_java/META-INF/crazy_java.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +25,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter16/ThirdThread.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="882">
@@ -36,6 +34,33 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#333#342#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter16/InvokeRun.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chapter16/StartDead.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="31" column="23" lean-forward="true" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter16/FirstThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -56,8 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/chapter8/IteratorTest.java" />
-        <option value="$PROJECT_DIR$/src/chapter8/IteratorEach.java" />
         <option value="$PROJECT_DIR$/src/chapter8/ForEachTest.java" />
         <option value="$PROJECT_DIR$/src/chapter8/PredicateTest.java" />
         <option value="$PROJECT_DIR$/src/chapter8/PredicateTest2.java" />
@@ -107,6 +130,8 @@
         <option value="$PROJECT_DIR$/src/chapter16/FirstThread.java" />
         <option value="$PROJECT_DIR$/src/chapter16/SecondThread.java" />
         <option value="$PROJECT_DIR$/src/chapter16/ThirdThread.java" />
+        <option value="$PROJECT_DIR$/src/chapter16/InvokeRun.java" />
+        <option value="$PROJECT_DIR$/src/chapter16/StartDead.java" />
       </list>
     </option>
   </component>
@@ -181,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThirdThread">
+  <component name="RunManager" selected="Application.StartDead">
     <configuration name="FirstThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter16.FirstThread" />
       <module name="crazy_java" />
@@ -195,12 +220,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter15.ReadObject" />
+    <configuration name="InvokeRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter16.InvokeRun" />
       <module name="crazy_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter15.*" />
+          <option name="PATTERN" value="chapter16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,6 +235,19 @@
     </configuration>
     <configuration name="SecondThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter16.SecondThread" />
+      <module name="crazy_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter16.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartDead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter16.StartDead" />
       <module name="crazy_java" />
       <extension name="coverage">
         <pattern>
@@ -234,33 +272,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WriteObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter15.WriteObject" />
-      <module name="crazy_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.WriteObject" />
-      <item itemvalue="Application.ReadObject" />
       <item itemvalue="Application.FirstThread" />
       <item itemvalue="Application.SecondThread" />
       <item itemvalue="Application.ThirdThread" />
+      <item itemvalue="Application.InvokeRun" />
+      <item itemvalue="Application.StartDead" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StartDead" />
+        <item itemvalue="Application.InvokeRun" />
         <item itemvalue="Application.ThirdThread" />
         <item itemvalue="Application.SecondThread" />
         <item itemvalue="Application.FirstThread" />
-        <item itemvalue="Application.ReadObject" />
-        <item itemvalue="Application.WriteObject" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +309,7 @@
       <workItem from="1590578904282" duration="873000" />
       <workItem from="1590600059969" duration="9076000" />
       <workItem from="1591126103026" duration="36000" />
-      <workItem from="1598971010204" duration="3456000" />
+      <workItem from="1598971010204" duration="4649000" />
     </task>
     <task id="LOCAL-00001" summary="Chapter 10 Exception initial commitment">
       <created>1590268866604</created>
@@ -370,11 +395,18 @@
       <option name="project" value="LOCAL" />
       <updated>1590622423485</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Thread">
+      <created>1598976784514</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1598976784514</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80183000" />
+    <option name="totallyTimeSpent" value="81376000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -387,8 +419,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22050938" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22050938" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -434,33 +467,10 @@
     <MESSAGE value="File" />
     <MESSAGE value="commit" />
     <MESSAGE value="File input and output serializable" />
-    <option name="LAST_COMMIT_MESSAGE" value="File input and output serializable" />
+    <MESSAGE value="Thread" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thread" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/chapter8/IntStreamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter8/HashSetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-          <folding>
-            <element signature="e#71#72#0" expanded="true" />
-            <element signature="e#98#99#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter8/LinkedHashSetTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -880,13 +890,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter16/FirstThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter16/SecondThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
@@ -902,6 +905,27 @@
             <element signature="imports" expanded="true" />
             <element signature="e#333#342#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter16/FirstThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter16/InvokeRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter16/StartDead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="31" column="23" lean-forward="true" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
         </state>
       </provider>
     </entry>
