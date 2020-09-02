@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3aebb19-63d8-4156-866c-4107fd26ac3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter16/DrawThreadSynchronized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter16/LockAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter16/DrawTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter16/DrawTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter16/DrawThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter16/DrawThread.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,11 +63,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter16/DrawTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="336">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chapter16/LockAccount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+              <folding>
+                <element signature="e#1667#1668#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,7 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/chapter8/PriorityQueueTest.java" />
         <option value="$PROJECT_DIR$/src/chapter8/ArrayDequeStack.java" />
         <option value="$PROJECT_DIR$/src/chapter8/MapTest.java" />
         <option value="$PROJECT_DIR$/src/chapter9/GenericTest.java" />
@@ -141,6 +150,7 @@
         <option value="$PROJECT_DIR$/src/chapter16/DrawThread.java" />
         <option value="$PROJECT_DIR$/src/chapter16/DrawThreadSynchronized.java" />
         <option value="$PROJECT_DIR$/src/chapter16/DrawTest.java" />
+        <option value="$PROJECT_DIR$/src/chapter16/LockAccount.java" />
       </list>
     </option>
   </component>
@@ -324,7 +334,7 @@
       <workItem from="1590600059969" duration="9076000" />
       <workItem from="1591126103026" duration="36000" />
       <workItem from="1598971010204" duration="7363000" />
-      <workItem from="1599025199887" duration="2667000" />
+      <workItem from="1599025199887" duration="3852000" />
     </task>
     <task id="LOCAL-00001" summary="Chapter 10 Exception initial commitment">
       <created>1590268866604</created>
@@ -452,11 +462,18 @@
       <option name="project" value="LOCAL" />
       <updated>1599027297497</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="账户取钱问题 解决线程同步">
+      <created>1599027923807</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1599027923807</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86757000" />
+    <option name="totallyTimeSpent" value="87942000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -471,7 +488,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22319035" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22319035" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -523,19 +540,10 @@
     <MESSAGE value="Thread sleep yield" />
     <MESSAGE value="Thread Priority" />
     <MESSAGE value="账户取钱问题 线程同步模拟" />
-    <option name="LAST_COMMIT_MESSAGE" value="账户取钱问题 线程同步模拟" />
+    <MESSAGE value="账户取钱问题 解决线程同步" />
+    <option name="LAST_COMMIT_MESSAGE" value="账户取钱问题 解决线程同步" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/chapter9/MyUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter9/Apple.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -982,8 +990,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter16/DrawTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="336">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter16/LockAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#1667#1668#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
