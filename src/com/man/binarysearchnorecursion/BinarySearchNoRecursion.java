@@ -1,4 +1,4 @@
-package algorithm.com.man.binarysearchnorecursion;
+package com.man.binarysearchnorecursion;
 
 public class BinarySearchNoRecursion
 {

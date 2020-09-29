@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3aebb19-63d8-4156-866c-4107fd26ac3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/man/divideandconquer/HanNuoTa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/man/kmp/ViolenceMatch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/com/man/binarysearchnorecursion/BinarySearchNoRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/man/binarysearchnorecursion/BinarySearchNoRecursion.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,19 +35,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/com/man/binarysearchnorecursion/BinarySearchNoRecursion.java">
+        <entry file="file://$PROJECT_DIR$/src/com/man/binarysearchnorecursion/BinarySearchNoRecursion.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="47">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/man/divideandconquer/HanNuoTa.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/man/divideandconquer/HanNuoTa.java">
+        <entry file="file://$PROJECT_DIR$/src/com/man/kmp/ViolenceMatch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+            <state relative-caret-position="84">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -67,7 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/chapter9/DiamondTest.java" />
         <option value="$PROJECT_DIR$/src/chapter9/Apple.java" />
         <option value="$PROJECT_DIR$/src/chapter9/GenericMethodTest.java" />
         <option value="$PROJECT_DIR$/src/chapter9/MyUtil.java" />
@@ -118,6 +127,7 @@
         <option value="$PROJECT_DIR$/src/chapter16/DeadLock.java" />
         <option value="$PROJECT_DIR$/src/algorithm/com/man/binarysearchnorecursion/BinarySearchNoRecursion.java" />
         <option value="$PROJECT_DIR$/src/com/man/divideandconquer/HanNuoTa.java" />
+        <option value="$PROJECT_DIR$/src/com/man/kmp/ViolenceMatch.java" />
       </list>
     </option>
   </component>
@@ -152,7 +162,7 @@
               <item name="crazy_java" type="b2602c69:ProjectViewProjectNode" />
               <item name="crazy_java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="divideandconquer" type="462c0819:PsiDirectoryNode" />
+              <item name="man" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -197,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HanNuoTa">
+  <component name="RunManager" selected="Application.ViolenceMatch">
     <configuration name="BinarySearchNoRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.com.man.binarysearchnorecursion.BinarySearchNoRecursion" />
       <module name="crazy_java" />
@@ -250,12 +260,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriorityTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter16.PriorityTest" />
+    <configuration name="ViolenceMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.man.kmp.ViolenceMatch" />
       <module name="crazy_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter16.*" />
+          <option name="PATTERN" value="com.man.kmp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,19 +274,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PriorityTest" />
       <item itemvalue="Application.DrawTest" />
       <item itemvalue="Application.DeadLock" />
       <item itemvalue="Application.BinarySearchNoRecursion" />
       <item itemvalue="Application.HanNuoTa" />
+      <item itemvalue="Application.ViolenceMatch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ViolenceMatch" />
         <item itemvalue="Application.HanNuoTa" />
         <item itemvalue="Application.BinarySearchNoRecursion" />
         <item itemvalue="Application.DeadLock" />
         <item itemvalue="Application.DrawTest" />
-        <item itemvalue="Application.PriorityTest" />
       </list>
     </recent_temporary>
   </component>
@@ -303,7 +313,7 @@
       <workItem from="1598971010204" duration="7363000" />
       <workItem from="1599025199887" duration="5162000" />
       <workItem from="1599131361681" duration="2716000" />
-      <workItem from="1601258432775" duration="3875000" />
+      <workItem from="1601258432775" duration="4944000" />
     </task>
     <task id="LOCAL-00001" summary="Chapter 10 Exception initial commitment">
       <created>1590268866604</created>
@@ -459,11 +469,18 @@
       <option name="project" value="LOCAL" />
       <updated>1601259779130</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="汉诺塔">
+      <created>1601337233753</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1601337233753</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95843000" />
+    <option name="totallyTimeSpent" value="96912000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -534,16 +551,10 @@
     <MESSAGE value="Lock Thread" />
     <MESSAGE value="Dead Lock" />
     <MESSAGE value="二分查找" />
-    <option name="LAST_COMMIT_MESSAGE" value="二分查找" />
+    <MESSAGE value="汉诺塔" />
+    <option name="LAST_COMMIT_MESSAGE" value="汉诺塔" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/chapter10/NullTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter10/DivTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -974,17 +985,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/com/man/binarysearchnorecursion/BinarySearchNoRecursion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/man/divideandconquer/HanNuoTa.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/man/binarysearchnorecursion/BinarySearchNoRecursion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/man/kmp/ViolenceMatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
